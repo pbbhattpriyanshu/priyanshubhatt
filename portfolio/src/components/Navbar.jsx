@@ -52,11 +52,6 @@ const Navbar = () => {
           }>
             About
           </NavLink>
-          <NavLink to="/contact" className={({ isActive }) =>
-            isActive ? "underline underline-offset-4 decoration-yellow-400 decoration-2 font-semibold"  : "font-semibold"
-          }>
-            Contact
-          </NavLink>
         </div>
       </nav>
     </header>

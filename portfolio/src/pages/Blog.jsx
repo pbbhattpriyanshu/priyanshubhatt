@@ -21,7 +21,7 @@ export default function Blog() {
 
   return (
     <main className="bg-neutral-800 relative mx-auto p-6 min-h-[calc(100vh-60px)] max-w-[800px]">
-      <section className="min-h-80 mt-2 mb-7">
+      <section className="min-h-80 mb-7">
         <div className="min-h-64 rounded-lg p-6 flex flex-col justify-center">
           {/* Home link */}
           <Link
