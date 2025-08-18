@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
+import  Search  from "./pages/Search";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
+        <Route path="/search" element={<Search />} />
       </Routes>
     </div>
   );
